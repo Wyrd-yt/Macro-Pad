@@ -18,13 +18,13 @@ Matériel:
     ● Potentiomètre  
     ● Boitier imprimé en 3D  
   
-Structure du projet:
-  Macro Pad/
-  |___programmes/
-  |    |___firmware_macro_pad/
-  |    |___logiciel_macro_pad/
-  |
-  |___schéma electrique/
+  Structure du projet:
+    Macro Pad/
+    |___programmes/
+    |    |___firmware_macro_pad/
+    |    |___logiciel_macro_pad/
+    |
+    |___schéma electrique/
 
 
 programmes/ :  
