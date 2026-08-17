@@ -28,12 +28,19 @@ Fonctionnalités:
 
 
 programmes/ :  
-Contient les programme nécessaires au fonctionnement du Macro Pad.  
+  ● Contient les programme nécessaires au fonctionnement du Macro Pad.  
   
 programmes/firware_macro_pad/ :  
-Contient le programme à téléverser dans la Raspberry Pi Pico. Il permet l'affichage de l'interface affiché sur l'écran du pad et la gestion de la communication avec le logiciel. Veillez à installer toutes les bibliothèque nécessaire au bon fonctionnement du programme.  
+  ● Contient le programme à téléverser dans la Raspberry Pi Pico. Il permet l'affichage de l'interface affiché sur l'écran   du pad et la gestion de la communication avec le logiciel. Veillez à installer toutes les bibliothèques nécessaires au     bon fonctionnement du programme.  
   
 programmes/logiciel_macro_pad :  
+  ● Contient les différents programmes et les .exe nécessaire au bon fonctionnement du logiciel de configuration. Veillez    à installer toutes les bibliothèques nécessaires au bon fonctionnement du logiciel.  
+
+schéma electrique/ :  
+  ● Contient le schéma électrique pour connecter correctement les différents composants entre eux.  
+
+  
+  
 
 
         
