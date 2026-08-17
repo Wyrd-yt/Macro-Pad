@@ -45,7 +45,7 @@ schéma electrique/ :
 
   ● Firmware :  
     1. Installer Arduino IDE  
-    2. Installer les bibliothèques nécessaires (veillez à installer la bibliothèque "Raspberry Pi Pico/rp2040/rp2350 by           Earle F.Philhower" afin de ne pas avoir de problème de cartes. Si vous ne la trouvez pas, entrez le lien suivant           dans l'Arduino IDE ➝ Fichier ➝ Préférences ➝ URL de gestionnaire de cartes supplémentaires :  
+    2. Installer les bibliothèques nécessaires (veillez à installer la bibliothèque "Raspberry Pi Pico/RP2040/RP2350 by           Earle F. Philhower, III" afin de ne pas avoir de problème de cartes. Si vous ne la trouvez pas, entrez le lien             suivant dans l'Arduino IDE ➝ Fichier ➝ Préférences ➝ URL de gestionnaire de cartes supplémentaires :  
        "https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json")  
     3. Ouvrir le fichier .ino situé dans programmes/firmware_macro_pad/  
     4. Sélectionner le Raspberry Pi Pico  
