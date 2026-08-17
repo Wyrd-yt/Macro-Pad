@@ -52,7 +52,7 @@ schéma electrique/ :
     5. Téléverser le firmware  
 
 Explication logiciel :  
-● Le logiciel fonctionne grâce à 3 fichiers en .exe : MacroPadConfig.exe, arrierePlanCommunication.exe et watcher.exe.
+● Le logiciel fonctionne grâce à 3 fichiers en .exe : MacroPadConfig.exe, arrierePlanCommunication.exe et watcher.exe.  
 ● Le MacroPadConfig.exe est le logiciel exécutable. Attention à créer un raccourci de ce dernier à mettre sur votre bureau si vous le désirez. Grâce à lui, vous pourrez configurer vos presets et les raccourcis correspondants pour chacun de vos touches. Si vous êtes perdu, cliquez sur le bouton "?", qui vous guidera sur la page "Guide d'utilisation".
 
 
