@@ -54,9 +54,11 @@ schéma electrique/ :
 Explication logiciel :  
 ● Le logiciel fonctionne grâce à 3 fichiers en .exe : MacroPadConfig.exe, arrierePlanCommunication.exe et watcher.exe.
   
-● Le MacroPadConfig.exe est le logiciel exécutable. Attention à créer un raccourci de ce dernier à mettre sur votre bureau si vous le désirez. Grâce à lui, vous pourrez configurer vos presets et les raccourcis correspondants pour chacun de vos touches. Si vous êtes perdu, cliquez sur le bouton "?", qui vous guidera sur la page "Guide d'utilisation".
+● Le MacroPadConfig.exe est le logiciel exécutable. Attention à créer un raccourci de ce dernier si vous voulez voir le logiciel sur votre bureau (le raccourci sera à mettre sur le bureau). Grâce à lui, vous pourrez configurer vos presets et les raccourcis correspondants pour chacun de vos touches. Si vous êtes perdu, cliquez sur le bouton "?", qui vous guidera sur la page "Guide d'utilisation". Avant de configurer votre Macro Pad, veuillez le synchroniser avec le logiciel afin qu'il le reconnaisse pour les prochaines modifications. Lorsque le bouton "Synchroniser" est cliqué, faites attention à bien suivre les étapes afin d'éviter un bug du logiciel.  
 
+● Le arrierePlanCommunication.exe est une extension du logiciel MacroPadConfig qui permet à votre Macro Pad de recevoir la configuration complète de vos presets sans avoir à lancer le logiciel principale de configuration. Cependant, arrierePlanCommunication.exe et MacroPadConfig.exe ne peuvent pas être en cours d'exécution en même temps, car ils utilisent et lisent le même port série sur lequel est branché votre Macro Pad. Si les 2 venaient à être exécuté en même temps, l'un des 2 programmes n'aura pas accès au Macro Pad ce qui ne lui permettra pas de communiquer avec ce dernier. C'est pourquoi le logiciel principal (MacroPadConfig) ferme arrierePlanCommunication à chaque lancement et l'ouvre à chaque fois qu'il ferme.
 
+● Enfin, le watcher.exe est également une extension de logiciel MacroPadConfig qui permet de lancer arrierePlanCommunication.exe à chaque démarrage de votre PC afin que ce dernier puisse communiquer vos presets a votre Macro Pad sans action de votre part.
 
   
   
