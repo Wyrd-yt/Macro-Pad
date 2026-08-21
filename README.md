@@ -63,8 +63,9 @@ Explication logiciel :
   
 Explication firmware :  
 ● Le firmware "firmware_macro_pad.exe" doit être téléversé sur la Raspberry Pi Pico. Il permet d'afficher l'interface affiché sur l'écran du pad, de gérer la communication avec le PC. Tant que aucunes données n'est reçues de la part du PC, l'interface du pad affiche une page de chargement.  
+  
 
-
+    
 Licence : Licence personnelle et éducative — usage non commercial.
 Vous pouvez télécharger, utiliser, modifier et reproduire ce projet gratuitement à des fins personnelles ou éducatives. Toute utilisation commerciale ou vente du projet ou de ses fichiers est interdite sans l’autorisation préalable de l’auteur.
 
