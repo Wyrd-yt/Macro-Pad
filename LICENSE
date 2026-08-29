@@ -1,47 +1,42 @@
-# Licence d'utilisation — Macro Pad
+Licence personnelle et éducative — usage non commercial
+1. Autorisations
 
-**Copyright © 2026 Noah Bentamar. Tous droits réservés.**
+Vous pouvez télécharger, utiliser, modifier, reproduire et partager ce projet gratuitement, uniquement à des fins personnelles ou éducatives.
 
-## 1. Autorisations
+La modification et la création de versions dérivées du projet sont autorisées.
 
-L'auteur autorise toute personne à :
+2. Restrictions
 
-* Télécharger gratuitement les fichiers du projet.
-* Utiliser le projet à des fins personnelles et éducatives.
-* Modifier le code source et les fichiers du projet à des fins personnelles et éducatives.
-* Reproduire le Macro Pad pour son usage personnel.
-* Imprimer et utiliser les modèles 3D fournis.
-* Partager gratuitement les fichiers originaux du projet, à condition de conserver cette licence et d'en mentionner l'auteur.
+Toute utilisation commerciale du projet est interdite sans l'autorisation préalable de l'auteur.
 
-## 2. Restrictions
+Il est notamment interdit de :
 
-Sans l'autorisation écrite préalable de l'auteur, il est interdit de :
+vendre le projet ou l'un de ses fichiers ;
+vendre une version modifiée ou dérivée du projet ;
+utiliser le projet ou une partie de celui-ci dans le cadre d'une activité commerciale ;
+intégrer tout ou partie du projet dans un produit ou service destiné à être vendu.
 
-* Vendre le Macro Pad ou toute reproduction du projet.
-* Vendre les fichiers du projet, notamment les fichiers STL, le code source ou les logiciels.
-* Utiliser les fichiers du projet dans le cadre d'une activité commerciale.
-* Vendre ou commercialiser une version modifiée du projet.
-* Faire payer l'accès aux fichiers du projet.
+Ces restrictions s'appliquent également à toute version modifiée ou dérivée du projet.
 
-## 3. Redistribution
+3. Redistribution
 
-Les fichiers peuvent être partagés gratuitement, à condition :
+La redistribution gratuite du projet ou d'une version modifiée est autorisée, à condition que :
 
-1. De ne pas les vendre.
-2. De conserver les mentions de copyright et cette licence.
-3. De créditer l'auteur original.
-4. De ne pas présenter une version modifiée comme étant le projet original.
+les fichiers et le code source restent accompagnés de cette licence ;
+les mentions concernant l'auteur présentes dans le projet soient conservées ;
+aucune rémunération ne soit demandée en échange du projet, de ses fichiers ou d'une version modifiée.
+4. Utilisation commerciale
 
-## 4. Utilisation éducative
+Une utilisation commerciale peut être autorisée uniquement avec l'autorisation préalable de l'auteur.
 
-La reproduction et la modification du projet sont autorisées dans un cadre scolaire, éducatif ou personnel, y compris pour présenter le projet dans un portfolio ou lors d'une démonstration, tant qu'aucune vente ou utilisation commerciale n'est effectuée.
+5. Garantie et responsabilité
 
-## 5. Absence de garantie
+Le projet est fourni « tel quel », sans aucune garantie, expresse ou implicite.
 
-Le projet est fourni « tel quel », sans aucune garantie. L'auteur ne peut être tenu responsable des dommages résultant de l'utilisation, de la modification ou de la reproduction du projet.
+L'auteur ne pourra être tenu responsable des dommages ou pertes résultant de l'utilisation, de la modification ou de la redistribution du projet.
 
-## 6. Autorisation commerciale
+6. Non-respect de la licence
 
-Toute utilisation commerciale non prévue par cette licence nécessite l'autorisation préalable et écrite de l'auteur.
+Toute utilisation ne respectant pas les conditions de cette licence entraîne automatiquement la perte des autorisations accordées par celle-ci.
 
-Pour demander une autorisation commerciale, veuillez contacter l'auteur via son profil GitHub.
+En utilisant, modifiant ou redistribuant ce projet, vous acceptez les conditions de cette licence.
