@@ -1,5 +1,5 @@
 # Macro-Pad
-Voici tous les fichiers nécessaires à la réalisation du Macro Pad. Vous y retrouverez le .stl du boîtier du Pad, les programmes utilisés pour le logiciel (MacroPadConfig) et le Pad lui-même, et enfin le schéma électrique.
+Voici tous les fichiers nécessaires à la réalisation du Macro Pad. Vous y retrouverez le fichier .stl du boîtier du Pad, les programmes utilisés pour le logiciel (MacroPadConfig) et le Pad lui-même, et enfin le schéma électrique.
 
 Fonctionnalités:  
   ● 8 touches programmables  
@@ -65,7 +65,7 @@ Explication logiciel :
   
 ● Le logiciel fonctionne grâce à trois fichiers en .exe : MacroPadConfig.exe, arrierePlanCommunication.exe et watcher.exe.
   
-● Le MacroPadConfig.exe est le logiciel principal. Attention si vous installez les programmes pour les modifier à créer un raccourci vers ce dernier si vous voulez avoir le logiciel sur votre bureau (le raccourci sera à mettre sur le bureau). Grâce à lui, vous pourrez configurer vos presets et les raccourcis correspondants pour chacune de vos touches. Si vous êtes perdu, cliquez sur le bouton "?", qui vous guidera vers la page "Guide d'utilisation". Avant de configurer votre Macro Pad, veuillez le synchroniser avec le logiciel afin qu'il le reconnaisse pour les prochaines modifications. Lorsque le bouton "Synchroniser" est cliqué, faites attention à bien suivre les étapes afin d'éviter tout bug du logiciel.  
+● Le MacroPadConfig.exe est le logiciel principal. Attention si vous installez les programmes pour les modifier à créer un raccourci vers ce dernier si vous voulez avoir le logiciel sur votre bureau (le raccourci sera à mettre sur le bureau). Grâce à lui, vous pourrez configurer vos presets et les raccourcis correspondants pour chacune de vos touches. Si vous avez besoin d'aide, cliquez sur le bouton "?", qui vous guidera vers la page "Guide d'utilisation". Avant de configurer votre Macro Pad, veuillez le synchroniser avec le logiciel afin qu'il le reconnaisse pour les prochaines modifications. Lorsque le bouton "Synchroniser" est cliqué, faites attention à bien suivre les étapes afin d'éviter tout bug du logiciel.  
 
 ● L'arrierePlanCommunication.exe est une extension du logiciel MacroPadConfig (qui tourne en arriere-plan) qui permet à votre Macro Pad de recevoir la configuration complète de vos presets sans avoir à lancer le logiciel principal de configuration. Cependant, arrierePlanCommunication.exe et MacroPadConfig.exe ne peuvent pas être en cours d'exécution en même temps, car ils utilisent tous les deux le même port série sur lequel est branché votre Macro Pad. Si les deux venaient à être exécutés en même temps, l'un des deux programmes n'aura pas accès au Macro Pad ce qui l'empêcherait de communiquer avec ce dernier. C'est pourquoi le logiciel principal (MacroPadConfig) ferme arrierePlanCommunication.exe à chaque lancement et le relance à chaque fois qu'il se ferme.
 
@@ -85,7 +85,7 @@ Explication logiciel :
 Les lettres sont écrites normalement. Cela donne des codes comme 1s (= CTRL + s).  Il faut noter que la librairie utilisée pour presser des touches utilise un clavier QWERTY. Il faut donc connaître l'équivalent des touches QWERTY en AZERTY (par exemple "=" en AZERTY est équivalent à "+" en QWERTY). La plus grande partie de la transformation des raccourcis en codes est effectuée dans le programme "logique.py", qui les transforme et les écrit sous la forme transformée dans le JSON. À noter : la rangée supérieure du clavier en AZERTY est équivalente aux nombres sur le QWERTY (par exemple "é" en AZERTY est équivalent à "2" en QWERTY). Puisque "logique.py" met dans le JSON la version transformée on ne peut pas convertir la rangée supérieure dans la partie logicielle car les nombres sont déjà occupés par les touches comme "CTRL" ou "ALT". Donc la conversion de cette rangée se fait dans le firmware du Macro Pad.  
 
 ● Le logiciel contient trois pages :  
-1. La page principale qui apparaît dès le lancement (créée dans le fichier "interfaceMain.py") qui permet d'accéder aux autres pages, de synchroniser son Macro Pad, d'envoyer les modifications au Pad, et de modifier le nom des presets et les supprimer.
+1. La page principale qui apparaît dès le lancement (créée dans le fichier "interfaceMain.py") qui permet d'accéder aux autres pages, de synchroniser son Macro Pad, d'envoyer les modifications au Pad et de modifier le nom des presets et les supprimer.
 2. La page de modification qui apparaît lorsque le bouton "modifier" d'un preset est cliqué sur la page principale (créée dans le fichier "interfaceModifPage.py"). Elle permet de configurer et de modifier ses presets (nom et raccourcis).
 3. La page d'aide (guide d'utilisation) qui apparaît lorsque le bouton "?" est cliqué sur la page principale (créée dans le fichier "interfaceHelp.py"). Elle permet d'accéder au guide d'utilisation pour comprendre comment fonctionne le logiciel.  
 Le fichier "main.py" permet de regrouper ces pages et de les coordonner.  
@@ -97,8 +97,8 @@ Explication firmware :
   
 
     
-Licence : Licence personnelle et éducative — usage non commercial.
-Vous pouvez télécharger, utiliser, modifier et reproduire ce projet gratuitement à des fins personnelles ou éducatives. Toute utilisation commerciale ou toute vente du projet ou de ses fichiers est interdite sans l’autorisation préalable de l’auteur. Toute version modifiée ou dérivée de ce projet reste soumise à cette même restriction et ne peut pas être vendue ou utilisée à des fins commerciales sans l'autorisation préalable de l'auteur.
+Licence personnelle et éducative — usage non commercial.
+Vous pouvez télécharger, utiliser, modifier et reproduire ce projet gratuitement à des fins personnelles ou éducatives. Toute utilisation commerciale ou toute vente du projet, de ses fichiers ou de toute version modifiée ou dérivée de celui-ci est interdite sans l'autorisation préalable de l'auteur.
 
 
 
