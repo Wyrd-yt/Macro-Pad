@@ -1,5 +1,5 @@
 # Macro-Pad
-Voici tous les fichiers nécessaires à la réalisation du Macro Pad. Vous y retrouverez le .stl du boitier du Pad, les programmes utilisés pour le logiciel (MacroPadConfig) et le Pad lui même, et enfin le schéma électrique.
+Voici tous les fichiers nécessaires à la réalisation du Macro Pad. Vous y retrouverez le .stl du boîtier du Pad, les programmes utilisés pour le logiciel (MacroPadConfig) et le Pad lui-même, et enfin le schéma électrique.
 
 Fonctionnalités:  
   ● 8 touches programmables  
@@ -41,7 +41,7 @@ schéma electrique/ :
   ● Contient le schéma électrique pour connecter correctement les différents composants entre eux. 
 
 fichiers 3D/ :  
-  ● Contient le fichier 3D (au format .stl) du boîtier du Macro Pad (boite inférieure, face avant et roue du potentiomètre).
+  ● Contient le fichier 3D (au format .stl) du boîtier du Macro Pad (boîte inférieure, face avant et roue du potentiomètre).
 
   Installation :
   ● Logiciel :  
@@ -67,12 +67,12 @@ Explication logiciel :
   
 ● Le MacroPadConfig.exe est le logiciel principal. Attention si vous installez les programmes pour les modifier à créer un raccourci vers ce dernier si vous voulez avoir le logiciel sur votre bureau (le raccourci sera à mettre sur le bureau). Grâce à lui, vous pourrez configurer vos presets et les raccourcis correspondants pour chacune de vos touches. Si vous êtes perdu, cliquez sur le bouton "?", qui vous guidera vers la page "Guide d'utilisation". Avant de configurer votre Macro Pad, veuillez le synchroniser avec le logiciel afin qu'il le reconnaisse pour les prochaines modifications. Lorsque le bouton "Synchroniser" est cliqué, faites attention à bien suivre les étapes afin d'éviter tout bug du logiciel.  
 
-● Le arrierePlanCommunication.exe est une extension du logiciel MacroPadConfig (qui tourne en arriere plan) qui permet à votre Macro Pad de recevoir la configuration complète de vos presets sans avoir à lancer le logiciel principal de configuration. Cependant, arrierePlanCommunication.exe et MacroPadConfig.exe ne peuvent pas être en cours d'exécution en même temps, car ils utilisent tous les deux le même port série sur lequel est branché votre Macro Pad. Si les deux venaient à être exécutés en même temps, l'un des deux programmes n'aura pas accès au Macro Pad ce qui l'empêcherait de communiquer avec ce dernier. C'est pourquoi le logiciel principal (MacroPadConfig) ferme arrierePlanCommunication à chaque lancement et le relance à chaque fois qu'il se ferme.
+● L'arrierePlanCommunication.exe est une extension du logiciel MacroPadConfig (qui tourne en arriere-plan) qui permet à votre Macro Pad de recevoir la configuration complète de vos presets sans avoir à lancer le logiciel principal de configuration. Cependant, arrierePlanCommunication.exe et MacroPadConfig.exe ne peuvent pas être en cours d'exécution en même temps, car ils utilisent tous les deux le même port série sur lequel est branché votre Macro Pad. Si les deux venaient à être exécutés en même temps, l'un des deux programmes n'aura pas accès au Macro Pad ce qui l'empêcherait de communiquer avec ce dernier. C'est pourquoi le logiciel principal (MacroPadConfig) ferme arrierePlanCommunication.exe à chaque lancement et le relance à chaque fois qu'il se ferme.
 
 ● Enfin, le watcher.exe est également une extension du logiciel MacroPadConfig qui permet de lancer arrierePlanCommunication.exe à chaque démarrage de votre PC afin que ce dernier puisse transmettre vos presets à votre Macro Pad sans action de votre part. Lorsque vous faites l'installation avec le Setup, ce programme sera automatiquement mis dans le dossier Startup afin qu'il s'exécute à chaque démarrage du PC.  
 
   
-● Pour faciliter la communication entre le logiciel et le Macro Pad, un système de code est utilisé :
+● Pour faciliter la communication entre le logiciel et le Macro Pad, un système de codes est utilisé :
 1 = CTRL  
 2 = SHIFT  
 3 = ALT  
@@ -82,10 +82,10 @@ Explication logiciel :
 7 = SPACE  
 8 = DELETE  
 9 = ENTER  
-Les lettres sont écrites normalement. Cela donne des codes comme 1s (= CTRL + s).  Il faut noter que la librairie utilisée pour presser des touches utilise un clavier qwerty. Il faut donc connaître l'équivalent des touches QWERTY en AZERTY (par exemple "=" en AZERTY est équivalent à "+" en QWERTY). La plus grande partie de la transformation des raccourcis en codes est effectué dans le programme "logique.py", qui les transforme et les écrit sous la forme transformée dans le json. À noter : la rangée du haut du clavier en AZERTY est équivalent aux nombres sur le QWERTY (par exemple "é" en AZERTY est équivalent à "2" en QWERTY). Puisque "logique.py" met dans le JSON la version transformée on ne peut pas convertir la rangée supérieure dans la partie logicielle car les nombres sont déjà occupés par les touches comme "CTRL" ou "ALT". Donc la conversion de cette rangée se fait dans le firmware du Macro Pad.  
+Les lettres sont écrites normalement. Cela donne des codes comme 1s (= CTRL + s).  Il faut noter que la librairie utilisée pour presser des touches utilise un clavier QWERTY. Il faut donc connaître l'équivalent des touches QWERTY en AZERTY (par exemple "=" en AZERTY est équivalent à "+" en QWERTY). La plus grande partie de la transformation des raccourcis en codes est effectuée dans le programme "logique.py", qui les transforme et les écrit sous la forme transformée dans le JSON. À noter : la rangée supérieure du clavier en AZERTY est équivalente aux nombres sur le QWERTY (par exemple "é" en AZERTY est équivalent à "2" en QWERTY). Puisque "logique.py" met dans le JSON la version transformée on ne peut pas convertir la rangée supérieure dans la partie logicielle car les nombres sont déjà occupés par les touches comme "CTRL" ou "ALT". Donc la conversion de cette rangée se fait dans le firmware du Macro Pad.  
 
-● Le logiciel contient 3 pages :  
-1. la page principale qui apparaît dès le lancement (créée dans le fichier "interfaceMain.py") qui permet d'accéder aux autres pages, synchroniser son Macro Pad, envoyer les modifications au Pad, modifier le nom des presets et les supprimer.
+● Le logiciel contient trois pages :  
+1. La page principale qui apparaît dès le lancement (créée dans le fichier "interfaceMain.py") qui permet d'accéder aux autres pages, de synchroniser son Macro Pad, d'envoyer les modifications au Pad, et de modifier le nom des presets et les supprimer.
 2. La page de modification qui apparaît lorsque le bouton "modifier" d'un preset est cliqué sur la page principale (créée dans le fichier "interfaceModifPage.py"). Elle permet de configurer et de modifier ses presets (nom et raccourcis).
 3. La page d'aide (guide d'utilisation) qui apparaît lorsque le bouton "?" est cliqué sur la page principale (créée dans le fichier "interfaceHelp.py"). Elle permet d'accéder au guide d'utilisation pour comprendre comment fonctionne le logiciel.  
 Le fichier "main.py" permet de regrouper ces pages et de les coordonner.  
@@ -93,7 +93,7 @@ Le fichier "main.py" permet de regrouper ces pages et de les coordonner.
 ● Afin de détecter un Macro Pad, le logiciel vérifie les appareils connectés au PC et attend de voir si l'un de ces appareils lui envoie "PICO OK". Si c'est le cas, il enregistre son numéro de série dans un autre fichier .json appelé "codeIdentification.json". Si le numéro de série du Macro Pad n'est pas présent dans ce dernier fichier, alors le logiciel l'enregistre dans "codeIdentification.json". 
   
 Explication firmware :  
-● Le firmware "firmware_macro_pad.ino" doit être téléversé sur la Raspberry Pi Pico. Il permet d'afficher l'interface sur l'écran du Pad, de gérer la communication avec le PC. Tant que aucune données n'est reçue de la part du PC, l'interface du pad affiche une page de chargement. Il décode les raccourcis envoyés par le logiciel afin de pouvoir exécuter les raccourcis.
+● Le firmware "firmware_macro_pad.ino" doit être téléversé sur la Raspberry Pi Pico. Il permet d'afficher l'interface sur l'écran du Pad, de gérer la communication avec le PC. Tant qu'aucune donnée n'est reçue de la part du PC, l'interface du Pad affiche une page de chargement. Il décode les raccourcis envoyés par le logiciel afin de pouvoir exécuter les raccourcis.
   
 
     
