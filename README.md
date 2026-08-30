@@ -1,5 +1,8 @@
 # Macro-Pad
-Voici tous les fichiers nécessaires à la réalisation du Macro Pad. Vous y retrouverez le fichier .stl du boîtier du Pad, les programmes utilisés pour le logiciel (MacroPadConfig) et le Pad lui-même, et enfin le schéma électrique.
+Voici tous les fichiers nécessaires à la réalisation du Macro Pad. Vous y retrouverez le fichier .stl du boîtier du Pad, les programmes utilisés pour le logiciel (MacroPadConfig) et le Pad lui-même, et enfin le schéma électrique.  
+
+lien de la chaine youtube : https://youtube.com/@wyrd-oo?si=q8pIsgX3l01WTT9k  
+lien de la vidéo Macro Pad : https://youtu.be/vMHQZ_2lBh8
 
 Fonctionnalités:  
   ● 8 touches programmables  
